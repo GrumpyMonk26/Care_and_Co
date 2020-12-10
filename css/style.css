@@ -1,0 +1,182 @@
+body {
+  margin-top: 120px;
+}
+
+/* Font Section */
+p {
+  font-size: 1.2rem;
+}
+
+.text-navy {
+  color: #043d92;
+}
+
+.firstPara {
+  font-size: 1.3rem;
+}
+
+.brand-text {
+  font-size: 150%;
+  color: #043d92;
+}
+
+.big-font {
+  font-size: 150%;
+}
+
+.support-text {
+  padding-bottom: 30px;
+}
+
+.domCare {
+  max-width: 35%;
+  margin-left: 50px;
+}
+
+.domCare-text {
+  margin: 40px 0;
+}
+/* Navbar section */
+.navbar {
+  box-shadow: 3px 3px 5px #043d92;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar-brand {
+  color: #000;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.navbar .nav-item {
+  font-size: 1.2rem;
+  padding-right: 1.2rem;
+}
+.navbar .nav-item.active {
+  border-left: #043d92 2px solid;
+}
+
+/* Jumbotron Section */
+.jumbotron-fluid {
+  background-color: #d3d3d3 !important;
+  padding: 0 !important;
+}
+
+/* Button Section */
+.btn-navy {
+  background: #043d92;
+  color: #fff;
+}
+.btn-navy:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+/* Image Section */
+.img-logo {
+  width: 70%;
+  height: auto;
+  padding-left: 2rem;
+}
+
+/* Card Section */
+.card-background {
+  background: #d3d3d3;
+}
+
+/* Footer Section */
+@media (max-width: 750px) {
+  .footer-font {
+    font-size: 0.7rem !important;
+    padding: 5px 0 !important;
+  }
+}
+
+footer {
+  padding: 5px 0;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #043d92;
+}
+.footer-font {
+  font-size: 1rem;
+  color: #000;
+}
+.footer-font:hover {
+  opacity: 0.7;
+}
+
+.footerCards {
+  padding-bottom: 80px;
+}
+
+/* Slick slider Section */
+.slider {
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.slick-prev::before {
+  content: none;
+}
+.slick-next:before {
+  content: none;
+}
+
+/* Testimonial Section */
+.testimonial {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Contact Form Section */
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.fa-facebook {
+  margin: 0 10px;
+}
+.fa-envelope {
+  margin: 0 10px;
+}
+
+/* Domiciliary Section */
+ul.square li:before {
+  content: '✓ ';
+  color: red;
+}
+
+ul.square {
+  list-style: none;
+  color: #043d92;
+  font-size: 1.4rem;
+}
+
+.dom-care-image {
+  font-size: 0.8rem;
+}
+
+/* .left-card {
+  max-width: 45%;
+}
+.right-card {
+  max-width: 45%;
+} */
+
+/* Befriending Section */
+
+/* .befriending {
+    padding-top: 50px;
+} */
+
+.support-text {
+  padding-top: 30px;
+}
+
+.carousel-inner .carousel-item img {
+  max-height: 630px !important;
+  max-width: auto;
+}
