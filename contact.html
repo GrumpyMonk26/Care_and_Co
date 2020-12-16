@@ -51,24 +51,6 @@
 
   <h3 class="display-4 text-navy text-center my-2 py-2">Contact Us</h3>
 
-<!-- CONTACT FORM SECTION -->
-
-<!-- <?php 
-
-$Msg = "";
- if(isset($_GET['error']))
- {
-   $Msg = " Please Fill in the Blanks ";
-   echo '<div class="alert alert-danger">'.$Msg.'</div>';
- }
-
- if(isset($_GET['success']))
- {
-   $Msg = " Your Message Has Been Sent ";
-   echo '<div class="alert alert-success">'.$Msg.'</div>';
- }
-                   
-?> -->
 
 
 <!-- CONTACT SECTION -->
@@ -95,13 +77,14 @@ $Msg = "";
 <!-- Contact Form Section -->
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <form action="process.php" method="post">
-                    <input type="text" name="Name" placeholder="Name" class="form-control mb-2">
-                    <input type="email" name="Email" placeholder="Email" class="form-control mb-2">
-                    <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2">
-                    <textarea name="msg" class="form-control mb-2" placeholder="Write The Message"></textarea>
-                    <button class="btn btn-block btn-primary" name="btn-send"> Send </button>
+                <form action="https://formspree.io/f/xdopwbng" method="POST">
+                    <input type="text" name="name" placeholder="Name" class="form-control mb-2">
+                    <input type="email" name="email" placeholder="Email" class="form-control mb-2">
+                    <input type="text" name="subject" placeholder="Subject" class="form-control mb-2">
+                    <textarea name="message" rows="7" placeholder="Write The Message" class="form-control mb-2"></textarea>
+                    <button type="submit" class="btn btn-block btn-primary"> Send </button>
                   </form>
+
             </div>
             <div class="col-md-2 pb-5 mb-5"></div>
 
